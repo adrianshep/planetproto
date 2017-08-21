@@ -5,13 +5,12 @@
 //    an object of your own making, not the implicit 'this'.
 
 function Robot() {
-		this.kind = 'alien';
+
 }
 
 function Vehicle() {
-		this.kind = 'alien';
+	return {};
 }
-
 
 // ------------------------------------------------
 // Common JS exports for verification, don't modify
