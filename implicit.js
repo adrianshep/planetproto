@@ -3,6 +3,24 @@
 
 /*
 
+Here's the official solution in case you want to compare notes:
+
+────────────────────────────────────────────────────────────────────────────────
+    function Robot() {
+
+    }
+
+    function Vehicle () {
+        return {};
+    }
+
+    module.exports = {
+        Robot:    Robot,
+        Vehicle:  Vehicle
+    }
+
+────────────────────────────────────────────────────────────────────────────────
+
 090 Implicit this
  Exercise 9 of 10
 
