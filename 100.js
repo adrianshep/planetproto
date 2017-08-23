@@ -1,9 +1,15 @@
 // -> Define a 'Robot' function constructor
 // -> Create two instances of Robot: 'robby' and 'cranky'
-// -> Both robby and cranky should respond to 'parts' and 'capabilities', these 
+// -> Both robby and cranky should respond to 'parts' and 'capabilities', these
 //    should be empty arrays at first
 
-__
+function Robot() {
+
+}
+
+var robby = new Robot('robby');
+
+var cranky = new Robot('cranky');
 
 // -> Claim the result of robby.parts
 claim(robby.parts, __);
@@ -15,8 +21,8 @@ claim(robby.capabilities, __);
 claim(cranky.capabilities, __);
 
 // -> Add 'core' to robby.parts, cranky.parts should still be empty
-// -> Add 'fly' to robby.capabilities, after doing that cranky.capabilities must 
-//    also have 'fly' without adding to it directly, so this property has to be 
+// -> Add 'fly' to robby.capabilities, after doing that cranky.capabilities must
+//    also have 'fly' without adding to it directly, so this property has to be
 //    shared
 
 __
