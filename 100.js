@@ -4,7 +4,8 @@
 //    should be empty arrays at first
 
 function Robot() {
-
+	this.parts = parts;
+	this.capabilities = capabilities;
 }
 
 var robby = new Robot('robby');
