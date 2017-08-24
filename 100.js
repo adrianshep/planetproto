@@ -4,13 +4,14 @@
 //    should be empty arrays at first
 
 function Robot() {
-	this.parts = parts;
-	this.capabilities = capabilities;
+	parts: [],
+	capabilities: []
 }
 
-var robby = new Robot('robby');
+var robby = Object.create(Robot);
 
-var cranky = new Robot('cranky');
+var cranky = Object.create(Robot);
+
 
 // -> Claim the result of robby.parts
 claim(robby.parts, __);
