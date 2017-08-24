@@ -14,13 +14,13 @@ var cranky = Object.create(Robot);
 
 
 // -> Claim the result of robby.parts
-claim(robby.parts, __);
+claim(robby.parts, []);
 // -> Claim the result of cranky.parts
-claim(cranky.parts, __);
+claim(cranky.parts, []);
 // -> Claim the result of robby.capabilities
-claim(robby.capabilities, __);
+claim(robby.capabilities, []);
 // -> Claim the result of cranky.capabilities
-claim(cranky.capabilities, __);
+claim(cranky.capabilities, []);
 
 // -> Add 'core' to robby.parts, cranky.parts should still be empty
 // -> Add 'fly' to robby.capabilities, after doing that cranky.capabilities must
