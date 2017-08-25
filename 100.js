@@ -29,6 +29,8 @@ claim(cranky.capabilities, []);
 
 robby.parts.push('core');
 
+robby.capabilities.push('fly');
+
 // -> Claim the result of robby.parts
 claim(robby.parts, __);
 // -> Claim the result of cranky.parts
