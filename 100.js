@@ -27,7 +27,7 @@ claim(cranky.capabilities, []);
 //    also have 'fly' without adding to it directly, so this property has to be
 //    shared
 
-__
+robby.parts.push('core');
 
 // -> Claim the result of robby.parts
 claim(robby.parts, __);
