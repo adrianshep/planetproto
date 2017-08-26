@@ -32,13 +32,13 @@ robby.parts = ['core'];
 robby.capabilities.push('fly');
 
 // -> Claim the result of robby.parts
-claim(robby.parts, __);
+claim(robby.parts, ['core']);
 // -> Claim the result of cranky.parts
-claim(cranky.parts, __);
+claim(cranky.parts, []);
 // -> Claim the result of robby.capabilities
-claim(robby.capabilities, __);
+claim(robby.capabilities, ['fly']);
 // -> Claim the result of cranky.capabilities
-claim(cranky.capabilities, __);
+claim(cranky.capabilities, ['fly']);
 
 
 // ------------------------------------------------
